@@ -76,25 +76,96 @@ header .vl {
   align-items: center;
 }
 
-.second-section .row .col:first-child  h2{
+.second-section .row .col:first-child h2 {
   margin-bottom: 3%;
 }
 
-.second-section .row .col:first-child span, .second-section .text-footer span{
-    line-height: 28px;
+.second-section .row .col:first-child span,
+.second-section .text-footer span {
+  line-height: 28px;
 }
 
-.second-section .text-footer{
-    text-align: center;    
-    width: 783px;
-    margin: 5% auto;
-    padding-bottom: 3%;
+.second-section .text-footer {
+  text-align: center;
+  width: 783px;
+  margin: 5% auto;
+  padding-bottom: 3%;
 }
 
-.second-section .text-footer h1{
-    color: white;
-    font-size: 70px;
-    line-height: 70px;
-    padding-bottom: 3%;
+.second-section .text-footer h1 {
+  color: white;
+  font-size: 70px;
+  line-height: 70px;
+  padding-bottom: 3%;
 }
 /* //second-section */
+
+/* first-generation */
+.first-generation {
+  margin-top: -70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 145px;
+  padding-right: 145px;
+}
+
+.first-generation .title,
+.second-generation .title,
+.third-generation .title {
+  background-color: #e8643e;
+  width: 235px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.first-generation .row,
+.second-generation .row, 
+.thrid-generation .row {
+  display: flex;
+}
+.first-generation .row .col,
+.second-generation .row .col,
+.third-generation .row .col{
+  width: 50%;
+  padding-top: 10%;
+}
+
+.first-generation .row .col:first-child,
+.second-generation .row .col:first-child,
+.third-generation .row .col:first-child {
+  border-right: 6px solid #e8643e;
+}
+
+.first-generation .row .col:first-child .list,
+.second-generation .row .col:last-child .list,
+.third-generation .row .col:first-child .list {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #727272;
+}
+
+.first-generation .row .col:first-child .list img,
+.second-generation .row .col:last-child .list img, 
+.third-generation .row .col:first-child .list img{
+  padding-right: 3%;
+}
+/* //first-generation */
+
+/* .second-generation */
+.second-generation, .third-generation  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 145px;
+  padding-right: 145px;
+}
+
+.second-generation .row .col:last-child {
+  padding-left: 3%;
+}
+/* //second-generation */
