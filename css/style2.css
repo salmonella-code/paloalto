@@ -1,0 +1,42 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-gradien {
+  background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
+}
+
+header .vl {
+  border-left: 1px solid black;
+  height: 33px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.button-color {
+  background-color: #e8643e;
+}
+
+.costumize-color-banner{
+    background-color: #FFD232;
+}
+
+.color-banner{
+    background-color: #e8643e;
+}
+
+.margin-banner{
+    margin: -20px auto;
+}
+
+.w-15{
+    width: 235px;
+}
+
+.costumize-border{
+  border-left: 6px solid #e8643e;
+}
+
+.costumize-color-footer{
+  background-color: #ffcb06;
+}

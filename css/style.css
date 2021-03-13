@@ -1,20 +1,18 @@
 * {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
 }
 
 /* .fisrt-section */
 .fisrt-section {
-  padding-left: 145px;
-  padding-right: 145px;
   background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
-  padding-bottom: 5%;
 }
+
 header {
   display: flex;
   padding-top: 27px;
   margin-bottom: 5%;
 }
+
 header .vl {
   border-left: 1px solid black;
   height: 33px;
@@ -26,7 +24,7 @@ header .vl {
   display: flex;
 }
 
-.fisrt-section .row .col{
+.fisrt-section .row .col {
   width: 50%;
 }
 
@@ -57,7 +55,7 @@ header .vl {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.fisrt-section .row .col:first-child button:hover{
+.fisrt-section .row .col:first-child button:hover {
   margin-top: -10px;
 }
 
@@ -75,12 +73,12 @@ header .vl {
   padding-top: 5%;
 }
 
-.second-section .row .col:first-child{
+.second-section .row .col:first-child {
   width: 45%;
   margin-right: 5%;
 }
 
-.second-section .row .col:last-child{
+.second-section .row .col:last-child {
   width: 50%;
 }
 
@@ -201,17 +199,17 @@ header .vl {
   display: flex;
 }
 
-.banner .row .col:first-child{
+.banner .row .col:first-child {
   color: white;
   padding-left: 5%;
   padding-top: 5%;
 }
 
-.banner .row .col:first-child h2{
+.banner .row .col:first-child h2 {
   margin-bottom: 3%;
 }
 
-.banner .row .col:first-child button{
+.banner .row .col:first-child button {
   background-color: white;
   border-radius: 70px;
   border: none;
@@ -222,25 +220,56 @@ header .vl {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.banner .row .col:first-child button:hover{
+.banner .row .col:first-child button:hover {
   margin-top: -10px;
 }
 
-.banner .row .col:last-child img{
+.banner .row .col:last-child img {
   margin-bottom: -5%;
 }
 /* //banner */
 
 /* footer */
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer a{
+footer a {
   margin-right: 5px;
-  color: #353A45;
+  color: #353a45;
   font-size: 20px;
 }
 /* //footer */
+
+/* screen */
+@media screen and (max-width: 479px) {
+  .fisrt-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fisrt-section .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fisrt-section .row .col:first-child h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .fisrt-section .row .col:first-child span {
+    line-height: 20px;
+  }
+
+  .second-section .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-section .row .col svg{
+    width: 200px;
+  }
+}
