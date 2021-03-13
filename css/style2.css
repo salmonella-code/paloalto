@@ -40,3 +40,8 @@ header .vl {
 .costumize-color-footer{
   background-color: #ffcb06;
 }
+
+ul {
+  /* list-style-image: url(../img/Group\ 4249.png); */
+  list-style-image: url(../img/Group\ 4249.png);
+}
