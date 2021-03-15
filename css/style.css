@@ -2,22 +2,23 @@
   font-family: "Montserrat", sans-serif;
 }
 
-h1{
+h1 {
   font-size: 70px;
   line-height: 70px;
 }
 
-h3{
+h3 {
   font-size: 23px;
   line-height: 28px;
+  font-weight: 700px;
 }
 
-h5{
+h5 {
   font-size: 23px;
   line-height: 32px;
 }
 
-h6{
+h6 {
   font-size: 12px;
   line-height: 32px;
   margin-bottom: 0;
@@ -34,39 +35,44 @@ header .vl {
   margin-right: 3%;
 }
 
+.line{
+  border-left: 6px solid #e8643e;
+  height: 100vh;
+}
+
 .button-color {
   background-color: #e8643e;
 }
 
-.costumize-color-banner{
-    background-color: #FFD232;
+.costumize-color-banner {
+  background-color: #ffd232;
 }
 
-.color-banner{
-    background-color: #e8643e;
+.color-banner {
+  background-color: #e8643e;
 }
 
-.margin-banner{
-    margin: -30px auto;
+.margin-banner {
+  margin: -30px auto;
 }
 
-.w-15{
-    width: 235px;
+.w-15 {
+  width: 235px;
 }
 
-.costumize-border{
+.costumize-border {
   border-left: 6px solid #e8643e;
 }
 
-.costumize-r-border{
+.costumize-r-border {
   border-right: 6px solid #e8643e;
 }
 
-.costumize-color-footer{
+.costumize-color-footer {
   background-color: #ffcb06;
 }
 
-ul{
+ul {
   padding-left: 0;
 }
 
@@ -79,45 +85,48 @@ li {
   color: #727272;
 }
 
-
-.pb-6{
+.pb-6 {
   padding-bottom: 6rem;
 }
 
-.py-6{
+.py-6 {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
-@media screen and (max-width: 767px){
-  h1{
+footer{
+  background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
     font-size: 50px;
     line-height: 50px;
   }
 
-  .py-6{
+  .py-6 {
     padding-top: 1.3rem;
     padding-bottom: 1rem;
   }
 
-  .costumize-border{
+  .costumize-border {
     border-left: none;
   }
 
-  .costumize-r-border{
+  .costumize-r-border {
     border-right: none;
   }
 
-  .row{
+  .row {
     display: flex;
     flex-direction: column;
   }
 
-  .first-generation .container .row{
+  .first-generation .container .row {
     flex-direction: column-reverse;
   }
 
-  .third-generation .container .row{
+  .third-generation .container .row {
     flex-direction: column-reverse;
   }
 }
