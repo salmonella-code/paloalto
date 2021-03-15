@@ -2,6 +2,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+h1{
+  font-size: 70px;
+  line-height: 70px;
+}
+
 .bg-gradien {
   background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
 }
@@ -44,4 +49,28 @@ header .vl {
 ul {
   /* list-style-image: url(../img/Group\ 4249.png); */
   list-style-image: url(../img/Group\ 4249.png);
+}
+
+@media screen and (max-width: 767px){
+  h1{
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .costumize-border{
+    border-left: none;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-generation .container .row{
+    flex-direction: column-reverse;
+  }
+
+  .third-generation .container .row{
+    flex-direction: column-reverse;
+  }
 }
