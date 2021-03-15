@@ -2,15 +2,29 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* .fisrt-section */
-.fisrt-section {
-  background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
+h1{
+  font-size: 70px;
+  line-height: 70px;
 }
 
-header {
-  display: flex;
-  padding-top: 27px;
-  margin-bottom: 5%;
+h3{
+  font-size: 23px;
+  line-height: 28px;
+}
+
+h5{
+  font-size: 23px;
+  line-height: 32px;
+}
+
+h6{
+  font-size: 12px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.bg-gradien {
+  background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
 }
 
 header .vl {
@@ -20,256 +34,90 @@ header .vl {
   margin-right: 3%;
 }
 
-.fisrt-section .row {
-  display: flex;
-}
-
-.fisrt-section .row .col {
-  width: 50%;
-}
-
-.fisrt-section .row .col:first-child {
-  display: flex;
-  flex-direction: column;
-}
-
-.fisrt-section .row .col:first-child h1 {
-  font-size: 70px;
-  line-height: 70px;
-  margin-bottom: 3%;
-}
-
-.fisrt-section .row .col:first-child span {
-  line-height: 27px;
-  margin-bottom: 3%;
-}
-
-.fisrt-section .row .col:first-child button {
+.button-color {
   background-color: #e8643e;
-  border-radius: 70px;
-  border: none;
-  color: white;
-  font-weight: bold;
-  width: 183px;
-  height: 53px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.fisrt-section .row .col:first-child button:hover {
-  margin-top: -10px;
+.costumize-color-banner{
+    background-color: #FFD232;
 }
 
-.fisrt-section .row .col:last-child {
-  display: flex;
-  justify-content: flex-end;
-}
-/* //.fisrt-section */
-
-/* second-section */
-.second-section {
-  background-color: #ffd232;
-  padding-left: 145px;
-  padding-right: 145px;
-  padding-top: 5%;
+.color-banner{
+    background-color: #e8643e;
 }
 
-.second-section .row .col:first-child {
-  width: 45%;
-  margin-right: 5%;
+.margin-banner{
+    margin: -30px auto;
 }
 
-.second-section .row .col:last-child {
-  width: 50%;
+.w-15{
+    width: 235px;
 }
 
-.second-section .row {
-  display: flex;
-  align-items: center;
+.costumize-border{
+  border-left: 6px solid #e8643e;
 }
 
-.second-section .row .col:first-child h2 {
-  margin-bottom: 3%;
-}
-
-.second-section .row .col:first-child span,
-.second-section .text-footer span {
-  line-height: 28px;
-}
-
-.second-section .text-footer {
-  text-align: center;
-  width: 783px;
-  margin: 5% auto;
-  padding-bottom: 10%;
-}
-
-.second-section .text-footer h1 {
-  color: white;
-  font-size: 70px;
-  line-height: 70px;
-  padding-bottom: 3%;
-}
-/* //second-section */
-
-/* generation */
-.first-generation {
-  margin-top: -70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 145px;
-  padding-right: 145px;
-}
-
-.first-generation .title,
-.second-generation .title,
-.third-generation .title,
-.ngfws .title {
-  background-color: #e8643e;
-  width: 235px;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  text-transform: uppercase;
-}
-
-.first-generation .row,
-.second-generation .row,
-.third-generation .row,
-.ngfws .row {
-  display: flex;
-}
-.first-generation .row .col,
-.second-generation .row .col,
-.third-generation .row .col,
-.ngfws .row .col {
-  width: 530px;
-  padding-top: 10%;
-}
-
-.first-generation .row .col:first-child,
-.second-generation .row .col:first-child,
-.third-generation .row .col:first-child {
+.costumize-r-border{
   border-right: 6px solid #e8643e;
 }
 
-.first-generation .row .col:first-child .list,
-.second-generation .row .col:last-child .list,
-.third-generation .row .col:first-child .list,
-.ngfws .row .col:last-child .list {
-  display: flex;
-  align-items: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
+.costumize-color-footer{
+  background-color: #ffcb06;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li {
+  background: url(../img/Group\ 4249.png) no-repeat left top;
+  padding: 3px 0px 15px 50px;
+  list-style: none;
+  margin: 0;
+  font-weight: 300;
   color: #727272;
 }
 
-.first-generation .row .col:first-child .list img,
-.second-generation .row .col:last-child .list img,
-.third-generation .row .col:first-child .list img,
-.ngfws .row .col:last-child .list img {
-  padding-right: 3%;
+
+.pb-6{
+  padding-bottom: 6rem;
 }
 
-.second-generation,
-.third-generation,
-.ngfws {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 145px;
-  padding-right: 145px;
+.py-6{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
-.second-generation .row .col:last-child,
-.ngfws .row .col:last-child {
-  padding-left: 3%;
-}
-/* //generation */
-
-/* banner */
-.banner {
-  width: 1086px;
-  margin: 10% auto;
-  background-color: #ffcb06;
-  overflow: hidden;
-}
-
-.banner .row {
-  display: flex;
-}
-
-.banner .row .col:first-child {
-  color: white;
-  padding-left: 5%;
-  padding-top: 5%;
-}
-
-.banner .row .col:first-child h2 {
-  margin-bottom: 3%;
-}
-
-.banner .row .col:first-child button {
-  background-color: white;
-  border-radius: 70px;
-  border: none;
-  color: black;
-  font-weight: bold;
-  width: 183px;
-  height: 53px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.banner .row .col:first-child button:hover {
-  margin-top: -10px;
-}
-
-.banner .row .col:last-child img {
-  margin-bottom: -5%;
-}
-/* //banner */
-
-/* footer */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  margin-right: 5px;
-  color: #353a45;
-  font-size: 20px;
-}
-/* //footer */
-
-/* screen */
-@media screen and (max-width: 479px) {
-  .fisrt-section {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .fisrt-section .row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .fisrt-section .row .col:first-child h1 {
+@media screen and (max-width: 767px){
+  h1{
     font-size: 50px;
     line-height: 50px;
   }
 
-  .fisrt-section .row .col:first-child span {
-    line-height: 20px;
+  .py-6{
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
   }
 
-  .second-section .row{
+  .costumize-border{
+    border-left: none;
+  }
+
+  .costumize-r-border{
+    border-right: none;
+  }
+
+  .row{
     display: flex;
     flex-direction: column;
   }
 
-  .second-section .row .col svg{
-    width: 200px;
+  .first-generation .container .row{
+    flex-direction: column-reverse;
+  }
+
+  .third-generation .container .row{
+    flex-direction: column-reverse;
   }
 }
