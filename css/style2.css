@@ -7,6 +7,11 @@ h1{
   line-height: 70px;
 }
 
+h3{
+  font-size: 23px;
+  line-height: 28px;
+}
+
 .bg-gradien {
   background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
 }
@@ -52,9 +57,10 @@ ul{
 
 li {
   background: url(../img/Group\ 4249.png) no-repeat left top;
-  padding: 3px 0px 10px 50px;
+  padding: 3px 0px 15px 50px;
   list-style: none;
   margin: 0;
+  font-weight: 200;
 }
 
 .py-6{
