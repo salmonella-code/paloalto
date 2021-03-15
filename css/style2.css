@@ -12,6 +12,17 @@ h3{
   line-height: 28px;
 }
 
+h5{
+  font-size: 23px;
+  line-height: 32px;
+}
+
+h6{
+  font-size: 12px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
 .bg-gradien {
   background: linear-gradient(180deg, #f8f4e7 0%, #ffffff 100%);
 }
@@ -36,7 +47,7 @@ header .vl {
 }
 
 .margin-banner{
-    margin: -20px auto;
+    margin: -30px auto;
 }
 
 .w-15{
@@ -45,6 +56,10 @@ header .vl {
 
 .costumize-border{
   border-left: 6px solid #e8643e;
+}
+
+.costumize-r-border{
+  border-right: 6px solid #e8643e;
 }
 
 .costumize-color-footer{
@@ -61,6 +76,12 @@ li {
   list-style: none;
   margin: 0;
   font-weight: 200;
+  color: #727272;
+}
+
+
+.pb-6{
+  padding-bottom: 6rem;
 }
 
 .py-6{
@@ -81,6 +102,10 @@ li {
 
   .costumize-border{
     border-left: none;
+  }
+
+  .costumize-r-border{
+    border-right: none;
   }
 
   .row{
