@@ -49,7 +49,8 @@ header .vl {
 }
 
 .color-banner {
-  background-color: #e8643e;
+  background-color: #E8643E;
+  letter-spacing: 0.1em;
 }
 
 .margin-banner {
@@ -61,11 +62,11 @@ header .vl {
 }
 
 .costumize-border {
-  border-left: 6px solid #e8643e;
+  border-left: 6px solid #E8643E;
 }
 
 .costumize-r-border {
-  border-right: 6px solid #e8643e;
+  border-right: 6px solid #E8643E;
 }
 
 .costumize-color-footer {
