@@ -69,7 +69,7 @@
                     </span>
                 </div>
                 <div class="col px-md-5 px-sm-0 d-flex justify-content-end" id="lottie">
-                    <!-- <img src="img/Group 4367.svg" alt="" class="img-fluid pt-3 pt-sm-0"> -->
+                    <img src="img/Group 4367.svg" alt="" class="img-fluid pt-3 pt-sm-0">
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
 
                 <div class="col py-6 costumize-border mt-2">          
                     <div class="container pl-lg-5" id="lottie-2">
-                        <!-- <img src="img/Group 4364.svg" alt="" class="img-fluid pt-3 pt-sm-0"> -->
+                        <img src="img/Group 4364.svg" alt="" class="img-fluid pt-3 pt-sm-0">
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col py-6" id="lottie-3">
-                    <!-- <img src="img/Group 4363.svg" alt="" class="img-fluid"> -->
+                    <img src="img/Group 4363.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col py-6 costumize-border">
                     <div class="container px-3">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col py-6">
                     <div class="container pl-lg-5" id="lottie-4">
-                    <!-- <img src="img/Group 4365.svg" alt="" class="img-fluid"> -->
+                    <img src="img/Group 4365.svg" alt="" class="img-fluid">
                 </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col py-6" id="lottie-5">
-                    <!-- <img src="img/Group 4366.svg" alt="" class="img-fluid"> -->
+                    <img src="img/Group 4366.svg" alt="" class="img-fluid">
                 </div>
 
                 <div class="col py-6">
@@ -249,6 +249,7 @@
     	async function fetchAnimation(idEl,jsonFile) {
 		    let response = await fetch(jsonFile);
 		    let animationData = await response.json();
+		    document.getElementById(idEl).innerHTML="";
             var params = {
                 container: document.getElementById(idEl),
                 renderer: 'svg',
