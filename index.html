@@ -105,8 +105,8 @@
                 </div>
 
                 <div class="col py-6 costumize-border mt-2">          
-                    <div class="container pl-lg-5">
-                    <img src="img/Group 4364.svg" alt="" class="img-fluid pt-3 pt-sm-0">
+                    <div class="container pl-lg-5" id="lottie-2">
+                        <!-- <img src="img/Group 4364.svg" alt="" class="img-fluid pt-3 pt-sm-0"> -->
                     </div>
                 </div>
 
@@ -122,8 +122,8 @@
         </div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col py-6">
-                    <img src="img/Group 4363.svg" alt="" class="img-fluid">
+                <div class="col py-6" id="lottie-3">
+                    <!-- <img src="img/Group 4363.svg" alt="" class="img-fluid"> -->
                 </div>
                 <div class="col py-6 costumize-border">
                     <div class="container px-3">
@@ -170,8 +170,8 @@
                 </div>
                 </div>
                 <div class="col py-6">
-                    <div class="container  pl-lg-5">
-                    <img src="img/Group 4365.svg" alt="" class="img-fluid">
+                    <div class="container pl-lg-5" id="lottie-4">
+                    <!-- <img src="img/Group 4365.svg" alt="" class="img-fluid"> -->
                 </div>
                 </div>
             </div>
@@ -186,8 +186,8 @@
         </div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col py-6">
-                    <img src="img/Group 4366.svg" alt="" class="img-fluid">
+                <div class="col py-6" id="lottie-5">
+                    <!-- <img src="img/Group 4366.svg" alt="" class="img-fluid"> -->
                 </div>
 
                 <div class="col py-6">
@@ -244,11 +244,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
-        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
-        crossorigin="anonymous"></script>
     <script src="js/lotte.js"></script>
-    <script src="js/animation-1.js"></script>
+    <script>
+    	async function fetchAnimation(idEl,jsonFile) {
+		    let response = await fetch(jsonFile);
+		    let animationData = await response.json();
+            var params = {
+                container: document.getElementById(idEl),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                animationData: animationData
+            };
+            lottie.loadAnimation(params);
+		}
+		fetchAnimation('lottie','./js/animation-1.json');
+		fetchAnimation('lottie-2','./js/animation-2.json');
+		fetchAnimation('lottie-3','./js/animation-3.json');
+		fetchAnimation('lottie-4','./js/animation-4.json');
+		fetchAnimation('lottie-5','./js/animation-5.json');
+    </script>
 </body>
 
 </html>
